@@ -1,0 +1,36 @@
+{
+ "channel": [
+  {
+   "name": "CLOUD.ADMIN.SVRCONN",
+   "clientConnection": {
+    "connection": [
+     {
+      "host": "queue-manager-prod-d5c8.qm.aws-us-east-1.mq.appdomain.cloud",
+      "port": 31408
+     }
+    ],
+    "queueManager": "Queue_Manager_PROD"
+   },
+   "transmissionSecurity": {
+    "cipherSpecification": "ANY_TLS12_OR_HIGHER"
+   },
+   "type": "clientConnection"
+  },
+  {
+   "name": "CLOUD.APP.SVRCONN",
+   "clientConnection": {
+    "connection": [
+     {
+      "host": "queue-manager-prod-d5c8.qm.aws-us-east-1.mq.appdomain.cloud",
+      "port": 31408
+     }
+    ],
+    "queueManager": "Queue_Manager_PROD"
+   },
+   "transmissionSecurity": {
+    "cipherSpecification": "ANY_TLS12_OR_HIGHER"
+   },
+   "type": "clientConnection"
+  }
+ ]
+}
